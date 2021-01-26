@@ -24,7 +24,7 @@ for word in str(n):
                 diff = abs(int(word) - button)
                 but = button
             else:
-                diff = but
+                diff = but1
                 cnt += 1
                 break
         result.append(str(diff))
