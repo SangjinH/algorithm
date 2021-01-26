@@ -7,19 +7,16 @@ m = int(input())
 usable_buttons = sorted(list(set(list(range(10))) - set(list(map(int, input().split())))))
 
 print(usable_buttons)
-
-
 ans = []
 
 ans.append(abs(100-n))
-
 
 result = []
 cnt = 0
 for word in str(n):
     if int(word) in usable_buttons:
         cnt += 1
-        result.append(int(word))
+        result.append(word)
     else:
         diff = 10
         for button in usable_buttons:
@@ -28,8 +25,12 @@ for word in str(n):
                 but = button
             else:
                 diff = but
+                cnt += 1
                 break
-        result.append(diff)
+        result.append(str(diff))
 
-
+result = int(''.join(result))
 print(result)
+# print(cnt)
+ans.append(abs(n-result) + cnt)
+print(ans)
