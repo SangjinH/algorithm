@@ -1,17 +1,19 @@
-num = int(input())
-conf = []
-Answer = []
-for _ in range(num):
-    conf.append(list(map(int, input().split())))
+import sys
+input = sys.stdin.readline
 
-conf = sorted(conf, key=lambda x: (x[1], x[0]))
+N = int(input())
 
-if num > 0:
-    Answer.append(conf[0])
+times = []
+for _ in range(N):
+    times.append(list(map(int, input().split())))
 
-    for i in range(1, num):
-        if conf[i][0] >= Answer[-1][1]:
-            Answer.append(conf[i])
+times.sort(key=lambda x: x[1])
 
+maxi = times[-1][-1]
+check = [0]*maxi
 
-print(len(Answer))
+for time in times:
+    for i in range(time[0], time[1]):
+        check[i] += 1
+
+print(max(check))
