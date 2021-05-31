@@ -12,12 +12,18 @@ for _ in range(N):
 
 dp = [0] * (N+1)
 
-if days[0] < N:
-    dp[days[0]] += costs[0]
+"""
+dp의 최대값은 
+"""
+maxi = 0
 
-for idx in range(1, N):
+result = 0
+for idx in range(N):
     if idx + days[idx] <= N:
-        comp_day = idx + days[idx]
-        dp[comp_day] = max(max(dp[:idx+1]) + costs[idx], dp[comp_day])
+        next_idx = idx + days[idx]
+        dp[next_idx] = max(dp[idx] + costs[idx], dp[next_idx], maxi+costs[idx])
+
+        if maxi < dp[idx]:
+            maxi = dp[idx]
 
 print(max(dp))
