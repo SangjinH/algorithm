@@ -41,4 +41,4 @@ for i in sequence:
     if i == 0:
         break
 
-    for p in range(len(pointers)):
+    # for p in range(len(pointers)):
