@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade3d0e6-a45c-4a8e-9c64-fcf8c55eab3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/daily/1127/2303.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/daily/1127/2531.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/daily/1127/1699.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/daily/1127/1699.py" afterDir="false" />
-    </list>
+    <list default="true" id="ade3d0e6-a45c-4a8e-9c64-fcf8c55eab3d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +203,7 @@
       <workItem from="1636768216811" duration="4930000" />
       <workItem from="1636952607298" duration="325000" />
       <workItem from="1637318468497" duration="4076000" />
-      <workItem from="1637986665088" duration="10719000" />
+      <workItem from="1637986665088" duration="12103000" />
     </task>
     <task id="LOCAL-00001" summary="주간챌린지">
       <created>1630538791446</created>
@@ -370,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637993919757</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Daily coding">
+      <created>1637998833180</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1637998833180</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +404,8 @@
     <MESSAGE value="36차시" />
     <MESSAGE value="11,auto" />
     <MESSAGE value="백준" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준" />
+    <MESSAGE value="Daily coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily coding" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$1699.coverage" NAME="1699 Coverage Results" MODIFIED="1637995413351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon/daily/1127" />
